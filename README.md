@@ -8,6 +8,8 @@ Many bagpipe tunes are available in **.bww** format here:
 For more information about **ABC notation**, see:  
 👉 [ABC notation reference](http://moinejf.free.fr/)
 
+
+bww notation reference: http://moinejf.free.fr/
 ---
 
 ## Features
@@ -35,23 +37,25 @@ Clone the repository and install globally with npm:
 git clone https://github.com/your-username/bww2abc.git
 cd bww2abc
 npm link
+```
+
 This will create a symbolic link from npm’s global binaries directory to your local script.
 Result: the bww2abc command becomes available globally on your machine.
 
-Usage
+## Usage
 Convert a tune from .bww to .abc:
 
-bash
-Copier le code
+```bash
 bww2abc tune.bww > tune.abc
-Examples
+```
+### Examples
 Example 1: Convert a simple tune
-bash
-Copier le code
+```bash
 bww2abc AmazingGrace.bww > AmazingGrace.abc
+```
 Output (AmazingGrace.abc):
 
-abc
+``
 Copier le code
 X:1
 T:Amazing Grace
@@ -59,24 +63,27 @@ M:3/4
 L:1/8
 K:D
 D2 | F2 A2 B2 | A4 D2 | ...
+``
+
 Example 2: Using node directly (without linking)
-bash
-Copier le code
+```bash
 node bww2abc.js ScotlandTheBrave.bww > ScotlandTheBrave.abc
+```
 Example 3: Batch conversion
 Convert all .bww files in a folder into .abc:
 
-bash
-Copier le code
+```bash
 for f in *.bww; do
   bww2abc "$f" > "${f%.bww}.abc"
 done
-Development
+```
+#### Development
 You can run the script directly without linking:
 
-bash
-Copier le code
+```bash
 node bww2abc.js tune.bww > tune.abc
+```
+
 Contributing
 Contributions are welcome!
 If you’d like to improve this project:
@@ -96,7 +103,7 @@ This project is licensed under the MIT License.
 See the LICENSE file for details.
 
 Author
-Developed and maintained by [Your Name].
+
 
 ABC notation reference: http://moinejf.free.fr/
 
