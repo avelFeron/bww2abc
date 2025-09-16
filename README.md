@@ -1,6 +1,6 @@
 # bww2abc
 
-`bww2abc` is a simple tool to convert **.bww** files (Bagpipe Writer format) into **.abc** notation.
+`bww2abc` is a simple tool to convert **.bww** files (Bagpipe Writer format) into **.abc** notation. based on http://moinejf.free.fr/
 
 Many bagpipe tunes are available in **.bww** format here:  
 👉 [Bagpipe Tunes Collection](https://bagpipetunes.intertechnics.com/)  
@@ -9,7 +9,7 @@ For more information about **ABC notation**, see:
 👉 [ABC notation reference](http://moinejf.free.fr/)
 
 
-bww notation reference: http://moinejf.free.fr/
+
 ---
 
 ## Features
