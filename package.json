@@ -1,0 +1,9 @@
+{
+  "name": "bww2abc",
+  "version": "1.0.0",
+  "description": "Convert .bww to .abc (Node.js wrapper)",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "bww2abc": "./bww2abc.js"
+  }
+}
